@@ -64,7 +64,7 @@
     "name": "免费 GPU 怎么选",
     "category": "gpu",
     "status": "对照",
-    "quota": "Kaggle 每周 30 小时 T4×2＋20 小时 TPU；魔搭 A10 一次性 36 小时＋CPU 长期免费；Lightning 一次性约 50 小时；Colab 免费 GPU 不保证",
+    "quota": "Kaggle 每周 30 小时 T4×2＋20 小时 TPU；魔搭 A10 一次性 36 小时＋CPU 长期免费；Lightning 一次性约 50 小时；Modal 每月 $30 额度；Paperspace 免费档公开项目可用 GPU；ZeroGPU 每天 5 分钟大显存；Colab 免费 GPU 不保证",
     "validity": "各家额度周期不同，见对照表",
     "condition": "先看对照表选平台，再去各家教程按步骤申请",
     "card": false,
@@ -970,5 +970,65 @@
     "card": false,
     "verified": "2026-11-15",
     "link": "https://taofai.com/guide/resources/flyio.html"
+  },
+  {
+    "id": "groq-vs-openrouter",
+    "name": "Groq vs OpenRouter 二选一",
+    "category": "api",
+    "status": "对照",
+    "quota": "Groq 免费档按速率限制免费调推理模型；OpenRouter 免费模型（带 free 标记）输入输出 $0、免费模型有速率限制",
+    "validity": "两家均为长期免费档；Groq 以官方速率限制页为准，OpenRouter 免费模型名单以官方模型页为准",
+    "condition": "两家均不绑卡；Groq 邮箱注册、注册可能被反机器人拦截，OpenRouter 邮箱加密码注册、注册验证可能被 Cloudflare 拦截",
+    "card": false,
+    "verified": "2026-11-15",
+    "link": "https://taofai.com/guide/resources/groq-vs-openrouter.html"
+  },
+  {
+    "id": "oracle-vs-huaweicloud",
+    "name": "Oracle vs 华为云二选一",
+    "category": "vps",
+    "status": "对照",
+    "quota": "Oracle Always Free 长期免费、另有 $300 试用额度 30 天；华为云 Flexus L 2 核 2G 免费 1 个月、ECS S7 2 核 4G 免费 1 个月（云服务器类四选一）",
+    "validity": "Oracle Always Free 无限期、$300 试用额度 30 天；华为云云服务器类免费 1 个月、另有长期免费产品",
+    "condition": "Oracle 需信用卡/借记卡验证身份（仅验证，不扣费）、每人限一个免费账号；华为云实名认证即可、不绑卡，限未购买未试用过对应产品的 V0 新用户、每人每产品限领 1 次",
+    "card": false,
+    "verified": "2026-11-15",
+    "link": "https://taofai.com/guide/resources/oracle-vs-huaweicloud.html"
+  },
+  {
+    "id": "free-vps-compare",
+    "name": "免费 VPS 怎么选",
+    "category": "vps",
+    "status": "对照",
+    "quota": "长期免费：Oracle Always Free、另有 $300 试用额度 30 天；Cloady 出站 10GB/月；serv00 3GB SSD 不限流量；Weeny 1 vCPU/1GB；Render 每月 750 实例小时。限时试用：华为云 Flexus L 2 核 2G 免费 1 个月；AWS 共 $200/6 个月；Azure $200/30 天；Google Cloud $300/90 天；阿里云国际站 ECS 约 $90/3 个月",
+    "validity": "长期免费组以长期或无限期为主；限时试用组从 1 个月到 6 个月不等，各家以对照表为准",
+    "condition": "先分清长期免费还是限时试用，再看要不要绑卡：长期组里 Oracle 要绑卡验证、其余四家不绑卡；试用组里华为云实名不绑卡，其余四家要绑卡验证",
+    "card": false,
+    "verified": "2026-11-15",
+    "link": "https://taofai.com/guide/resources/free-vps-compare.html"
+  },
+  {
+    "id": "scnet",
+    "name": "超算互联网",
+    "category": "api",
+    "status": "限时",
+    "quota": "新客免费 1000 万 Token 量包（GLM-5.3-Flash，1024K 上下文），注册即享、实时到账",
+    "validity": "活动期 2026-08-13 至 2026-12-31；免费量包到账后 30 天内有效",
+    "condition": "仅限活动期间首次注册的新用户（手机号注册并实名），每账号限领 1 次，总量有限先到先得；领免费包不绑卡",
+    "card": false,
+    "verified": "2026-11-15",
+    "link": "https://taofai.com/guide/resources/scnet.html"
+  },
+  {
+    "id": "devin-swe2-flash",
+    "name": "Devin SWE-2 Flash",
+    "category": "api",
+    "status": "限时",
+    "quota": "SWE-2 Flash 在 Devin Desktop / CLI 内限时免费（至 2026-11-30）；免费计划可选用 Medium 档",
+    "validity": "2026-11-04 上线，免费期至 2026-11-30，期满后按官方计费口径执行",
+    "condition": "需注册 Devin 账号并使用 Devin Desktop 或 CLI；云端会话（Devin Cloud）不包含；High 与 Max 档需付费计划",
+    "card": false,
+    "verified": "2026-11-15",
+    "link": "https://taofai.com/guide/resources/devin-swe2-flash.html"
   }
 ]

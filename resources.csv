@@ -1,0 +1,82 @@
+id,name,category,status,quota,validity,condition,card,verified,link
+kaggle,Kaggle,gpu,真正免费,每周 30 小时 GPU（T4×2）＋20 小时 TPU,每周六 08:00（北京时间）刷新,邮箱注册＋手机验证＋Persona 身份验证，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/kaggle.html
+modelscope,ModelScope 魔搭,gpu,真正免费,A10 一次性 36 小时；CPU 8 核 32G 长期免费；API 每天 250 魔粒免费额度（登录 200＋绑阿里云 50），按模型约 0.5/1/2 魔粒/次扣,A10 用完为止；CPU 长期,注册＋实名（阿里云），不绑卡,False,2026-11-11,https://taofai.com/guide/resources/modelscope.html
+lightning,Lightning AI,gpu,免费试用,约 50 GPU 小时一次性,12 个月内有效,邮箱注册＋手机验证，不绑卡,False,2026-11-11,https://taofai.com/guide/resources/lightning.html
+colab,Google Colab,gpu,真正免费,免费 GPU 不保证，忙时只给 CPU,无固定额度，随用随分,Google 账号登录，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/colab.html
+cloady,Cloady,vps,真正免费,出站 10GB/月、4 CPU 小时、360 GB·h 内存,免费档长期有效，用完等下月,邮箱注册，不绑卡,False,2026-11-12,https://taofai.com/guide/resources/cloady.html
+free-gpu-compare,免费 GPU 怎么选,gpu,对照,Kaggle 每周 30 小时 T4×2＋20 小时 TPU；魔搭 A10 一次性 36 小时＋CPU 长期免费；Lightning 一次性约 50 小时；Colab 免费 GPU 不保证,各家额度周期不同，见对照表,先看对照表选平台，再去各家教程按步骤申请,False,2026-11-14,https://taofai.com/guide/resources/free-gpu-compare.html
+weeny,Weeny,vps,真正免费,1 vCPU / 1GB 内存；先 7 天 4GB 试用,试用 7 天后转 1GB 免费档；闲置 30 分钟休眠,邮箱注册，不绑卡；免费容量满了要排队,False,2026-11-11,https://taofai.com/guide/resources/weeny.html
+free-api-compare,免费 API 怎么选,api,对照,智谱 GLM-4.7-Flash 输入输出免费；魔搭每天 250 魔粒；硅基流动新用户 2000 万 Tokens；百炼每模型 100 万 Token；AI Studio 部分模型免费；OpenRouter 免费模型 $0；Groq 免费档按速率限制,各家免费模型名单以官方页面为准,先看对照表选接口，再去各家教程拿 key,False,2026-11-14,https://taofai.com/guide/resources/free-api-compare.html
+serv00,serv00,vps,真正免费,3GB SSD、不限流量、512MB 内存、SSH,免费档长期；120 天不登面板会暂停,邮箱注册，人工审核（几小时到 72 小时），不绑卡,False,2026-11-12,https://taofai.com/guide/resources/serv00.html
+zhipu,智谱 GLM,api,免费试用,GLM-4.7-Flash 输入/输出免费；新用户 2000 万 tokens 体验包,体验包以券面为准；免费模型会换代,邮箱注册，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/zhipu.html
+clubsim,Club SIM 香港电话卡,esim,付费,保号 HK$15/年（买一次 15 港币通行证，号码顺延 365 天）,买一次顺延 365 天,办卡约 HK$53；App 内拍证件实名；内地免费收短信,,2026-11-14,https://taofai.com/guide/resources/clubsim.html
+tello,Tello 美国号,esim,付费,$5/月自定义套餐（无流量＋300 分钟＋无限短信，另加税总价约 $6–7）,按月续费,eSIM 首次激活须在美国境内连美国基站,,2026-11-12,https://taofai.com/guide/resources/tello.html
+ultrapaygo,Ultra PayGo,esim,付费,$3/30 天（100 分钟＋100 短信＋100MB）,30 天一周期；钱包低于 $3 周期末停机，60 天不付款销号,实体卡套装京东代购约 ¥368，激活后 App 内转 eSIM,,2026-11-12,https://taofai.com/guide/resources/ultrapaygo.html
+saily,Saily 美国号,esim,付费,$6.99/年（优惠码 BAYASE，原价 $11.99），无限收短信,一年,需 KYC；官方承认号码可能被识别为 VoIP，部分平台收不到码,,2026-11-12,https://taofai.com/guide/resources/saily.html
+keepgo,Keepgo 终身流量,esim,需充值,eSIM 免费，流量充值 $3 起，终身不过期,流量永不过期,纯流量无号码；充值 $3 起,,2026-11-12,https://taofai.com/guide/resources/keepgo.html
+us-hk-number-guide,美国号 / 香港号怎么选,esim,对照,Club SIM 保号 HK$15/年；Tello $5/月；Saily $6.99/年；Ultra PayGo $3/30 天,各家有效期不同，见对照表,先看对照表选号，再去各家教程按步骤申请,,2026-11-14,https://taofai.com/guide/resources/us-hk-number-guide.html
+xesimx7,Xesim X7 蓝牙写卡器,esim,付费,约 30 个 profiles，一次激活一个,硬件长期可用,$38；激活码发到邮箱手动粘贴，不用扫码,,2026-11-12,https://taofai.com/guide/resources/xesimx7.html
+oracle,Oracle Cloud Always Free,vps,真正免费,Always Free 长期免费：AMD 与 Arm Ampere A1 计算、块存储、对象存储等；另有 $300 试用额度 30 天,Always Free 无限期；$300 试用额度 30 天,官网注册，需信用卡/借记卡验证身份（仅验证，不扣费）；每人限一个免费账号,True,2026-11-14,https://taofai.com/guide/resources/oracle.html
+google-ai-studio,Google AI Studio,api,真正免费,免费档：部分模型输入输出免费，有速率限制,长期免费档，免费模型以官方额度页为准,Google 账号登录，不绑卡,False,2026-11-13,https://taofai.com/guide/resources/google-ai-studio.html
+groq,Groq,api,真正免费,免费档：按速率限制免费调推理模型（每分钟/每天请求与 token 上限因模型而异）,长期免费档，以官方速率限制页为准,邮箱注册，不绑卡；注册可能被反机器人拦截,False,2026-11-13,https://taofai.com/guide/resources/groq.html
+openrouter,OpenRouter,api,真正免费,免费模型（带 free 标记）：输入输出 $0；免费模型有速率限制,长期免费，免费模型名单以官方模型页为准,邮箱加密码注册，不绑卡；注册验证可能被 Cloudflare 拦截,False,2026-11-13,https://taofai.com/guide/resources/openrouter.html
+github-codespaces,GitHub Codespaces,gpu,真正免费,个人账号每月免费 120 核小时计算 + 15 GB 存储,每月刷新，用完即止,GitHub 个人账号，不绑卡；超额后无付款方式则停用,False,2026-11-13,https://taofai.com/guide/resources/github-codespaces.html
+cloudflare-workers,Cloudflare Workers,vps,真正免费,免费档：每天 10 万次请求，单次调用 10 毫秒 CPU 时间；KV、D1 也有免费额度,长期免费档，按天/月结算,邮箱注册，不绑卡,False,2026-11-13,https://taofai.com/guide/resources/cloudflare-workers.html
+siliconflow,硅基流动,api,免费试用,新用户注册送 2000 万 Tokens 免费额度,免费额度有效期以官方页面为准,手机号注册，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/siliconflow.html
+aliyun-bailian,阿里云百炼,api,免费试用,每个模型 100 万 Token 免费额度,领取后 90 天有效,阿里云账号＋实名，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/aliyun-bailian.html
+hf-zerogpu,Hugging Face ZeroGPU,gpu,真正免费,免费账号每天 5 分钟 GPU 时间；RTX Pro 6000 Blackwell（large 半卡 48GB、xlarge 整卡 96GB）,每天刷新免费时长,邮箱注册，不绑卡；自建 ZeroGPU Space 需验证邮箱＋账号满 30 天，最多建 2 个,False,2026-11-14,https://taofai.com/guide/resources/hf-zerogpu.html
+modal,Modal,gpu,真正免费,Starter 计划 $0，每月 $30 免费额度,每月刷新 $30 额度,官网注册；定价页未写明绑卡要求，实际以注册页提示为准,False,2026-11-14,https://taofai.com/guide/resources/modal.html
+paperspace,Paperspace Gradient,gpu,真正免费,Free 档 $0：公开项目、5GB 存储，含免费 GPU/基础实例,长期免费档；单次运行 12 小时自动关机,官网注册，不绑卡；免费档项目需公开,False,2026-11-14,https://taofai.com/guide/resources/paperspace.html
+baidu-aistudio,百度 AI Studio,gpu,真正免费,每日运行项目送 8 算力点（V100 16G 约 16 小时/天）；新手任务另送 100 点（90 天有效）,算力点每日发放；新手点 90 天有效,注册百度账号并实名，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/baidu-aistudio.html
+tencent-cloudstudio,腾讯云 Cloud Studio,gpu,真正免费,"通用工作空间每月赠 10,000 分钟；高性能（GPU）工作空间免费基础型每月赠 3,600 分钟（T4 16G 级）",每月赠送，按月刷新,腾讯云账号登录，不绑卡（以官方购买指南口径为准）,False,2026-11-14,https://taofai.com/guide/resources/tencent-cloudstudio.html
+tianchi-dsw,阿里云天池 DSW,gpu,免费试用,新用户免费试用包 750 CU·小时（每月发 250，3 个月有效），试用规格 A10 24G,3 个月，每月发放 250 CU·小时,阿里云账号实名；同一实名仅领一次，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/tianchi-dsw.html
+amd-dev,AMD AI 开发者计划,gpu,免费试用,$100 Developer Cloud 额度；MI300X 约 $1.99/时，约合 50 小时,额度到账后 30 天内用完,需提交申请、约 3 个工作日审批；开 GPU 实例前必须先绑定支付方式,True,2026-11-14,https://taofai.com/guide/resources/amd-dev.html
+daytona,Daytona,vps,免费试用,$200 免费算力额度（定价页明文：$200 in free compute included）,以官方定价页与账户页为准,官网注册，不绑卡（以官方定价页口径为准）,False,2026-11-14,https://taofai.com/guide/resources/daytona.html
+novita,Novita AI,vps,免费试用,新用户完成 setup 问卷得 $100 Sandbox 促销额度（仅抵 Sandbox 的 CPU/RAM）,以官方文档与账户页为准,注册并完成 setup 问卷，免绑卡,False,2026-11-14,https://taofai.com/guide/resources/novita.html
+alwaysdata,alwaysdata,vps,真正免费,免费档 0 €，终身免费,无限期（终身免费档）,官网注册，免银行卡；限个人用途,False,2026-11-14,https://taofai.com/guide/resources/alwaysdata.html
+vercel,Vercel Hobby,vps,真正免费,Hobby 免费：每月 100 GB 流量、100 万次函数调用等,长期免费档，按月计额度,官网注册，不绑卡；限个人非商用,False,2026-11-14,https://taofai.com/guide/resources/vercel.html
+netlify,Netlify,vps,真正免费,Free 档 $0：每月 300 credits（带宽按 20 credits/GB 扣）,长期免费档，点数按月发放,官网注册，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/netlify.html
+gh-pages,GitHub Pages,vps,真正免费,GitHub Free 账号可对公开仓库免费使用 Pages,长期免费（随 GitHub Free 计划）,GitHub 账号；仓库需公开，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/gh-pages.html
+cf-pages,Cloudflare Pages,vps,真正免费,免费档：每月 500 次构建、静态请求不限量、每账号 100 个项目,长期免费档，构建次数按月计,Cloudflare 账号，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/cf-pages.html
+cf-r2,Cloudflare R2,vps,真正免费,"每月 10 GB 存储＋100 万次 A 类操作＋1,000 万次 B 类操作免费，出站流量免费",长期免费档，按月计,Cloudflare 账号；开通时是否要求账户支付方式以开通页提示为准,False,2026-11-14,https://taofai.com/guide/resources/cf-r2.html
+cf-d1,Cloudflare D1,vps,真正免费,Workers 免费档：每天读 500 万行、写 10 万行，总存储 5 GB，最多 10 个数据库,长期免费档，按天计读写,Cloudflare 账号，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/cf-d1.html
+supabase,Supabase,vps,真正免费,免费档：500 MB 数据库、1 GB 文件存储、5 万月活用户,长期免费档；项目闲置 1 周暂停,官网注册，不绑卡；最多 2 个活跃项目,False,2026-11-14,https://taofai.com/guide/resources/supabase.html
+neon,Neon,vps,真正免费,免费档：100 个项目，每项目每月 100 CU 小时＋1 GB 存储,长期免费档，按月计 CU 小时,官网注册，免绑卡,False,2026-11-14,https://taofai.com/guide/resources/neon.html
+mongodb-atlas,MongoDB Atlas M0,vps,真正免费,M0 集群 512 MB 存储，Free forever（永久免费）,永久免费,官网注册，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/mongodb-atlas.html
+firebase,Firebase Spark,vps,真正免费,Spark 免费档：Firestore 1 GiB 存储＋每日 5 万次读；Hosting 10 GB 存储＋每天 360 MB 流量等,长期免费档，按天/总量计各服务额度,Google 账号；Spark 档免开通账单,False,2026-11-14,https://taofai.com/guide/resources/firebase.html
+tencent-freehub,腾讯云免费体验馆,vps,免费试用,60+ 产品 0 元试用，含轻量应用服务器免费体验,各产品时长不同，随活动页为准,腾讯云账号实名，不绑卡（试用产品以活动页为准）,False,2026-11-14,https://taofai.com/guide/resources/tencent-freehub.html
+gcp-free,Google Cloud 免费层,vps,免费试用,$300 额度（90 天）＋每月 1 台 e2-micro 永久免费层,$300 额度 90 天；e2-micro 免费层长期,注册必须绑定银行卡验证；免费层不扣费，转付费后才扣,True,2026-11-14,https://taofai.com/guide/resources/gcp-free.html
+aws-free,AWS 免费档,vps,免费试用,新免费计划共 $200：先给 $100，完成探索任务再给 $100,6 个月,注册需绑卡验证；免费计划期内不产生扣费,True,2026-11-14,https://taofai.com/guide/resources/aws-free.html
+azure-free,Azure 免费账号,vps,免费试用,$200 额度（30 天）＋12 个月免费服务,$200 用 30 天；免费服务 12 个月,注册需手机号＋信用卡/借记卡（非预付）验证，有约 $1 临时预授权,True,2026-11-14,https://taofai.com/guide/resources/azure-free.html
+deepgram,Deepgram,api,免费试用,新用户 $200 额度，约合 700+ 小时 Nova-3 转写,额度不过期,官网注册，免绑卡,False,2026-11-14,https://taofai.com/guide/resources/deepgram.html
+exa,Exa,api,真正免费,每月 $10 免费额度,每月刷新,官网注册，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/exa.html
+firecrawl,Firecrawl,api,真正免费,"每月 1,000 credits 免费",每月刷新,官网注册，免绑卡,False,2026-11-14,https://taofai.com/guide/resources/firecrawl.html
+jina,Jina AI,api,免费试用,"每个新 API Key 送 1,000 万免费 token；Reader 无 Key 可用（20 RPM）",新 Key 一次性赠送额度,注册创建 API Key，免绑卡；免费 token 限非商用,False,2026-11-14,https://taofai.com/guide/resources/jina.html
+cohere,Cohere,api,免费试用,"Trial Key 每月 1,000 次调用",每月刷新（评估用途）,官网注册，免绑卡；禁止商用/生产,False,2026-11-14,https://taofai.com/guide/resources/cohere.html
+mistral,Mistral AI,api,真正免费,新账号默认 Free mode，含每月免费量（具体数字不公开，以控制台 Limits 页为准）,每月免费量，按控制台口径,官网注册，免绑卡,False,2026-11-14,https://taofai.com/guide/resources/mistral.html
+nvidia-nim,NVIDIA NIM,api,真正免费,开发者计划成员免费调用 NIM API（限速制）,随开发者计划成员资格,加入 NVIDIA 开发者计划，免绑卡,False,2026-11-14,https://taofai.com/guide/resources/nvidia-nim.html
+volc-ark,火山引擎方舟,api,免费试用,新用户每个模型 50 万 tokens 一次性免费额度,一次性额度（每个模型一份）,火山引擎账号实名；先在控制台开通对应模型，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/volc-ark.html
+agnes,Agnes AI,api,真正免费,Flash 系列（文本/图像/视频）官方定价 $0；免费 Key 限速 20 RPM,官方口径为无限期免费（实际受账号权益与限速约束）,官网注册创建 API Key，免绑卡,False,2026-11-14,https://taofai.com/guide/resources/agnes.html
+amd-token,AMD Token Lab（Token Factory）,api,免费试用,每个 Key 10 点额度、30 天有效、限速 20 RPM，约 10 个开源模型,Key 创建起 30 天,AMD AI 开发者计划成员（免费加入），免申请、免绑卡,False,2026-11-14,https://taofai.com/guide/resources/amd-token.html
+xfyun-spark,讯飞星火,api,真正免费,Spark Lite 永久免费（总量不限、QPS 2）；星辰 MaaS 活动：Spark-X2.6 可领 10 亿 token（31 天）,Lite 长期免费；活动额度 31 天,讯飞开放平台注册；活动额度需实名、每人一次，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/xfyun-spark.html
+pollinations,Pollinations,api,真正免费,免费层：靠任务（Quests）得约 3 Pollen（约 $3）免费额度,以平台现行规则为准,新 API 需注册拿 Key，不绑卡,False,2026-11-14,https://taofai.com/guide/resources/pollinations.html
+sambanova,SambaNova Cloud,api,真正免费,免费层：每模型每天 20 次 / 20 万 token；另有注册 $5 额度（30 天）,免费层按天刷新；$5 额度 30 天,官网注册；官方称免绑卡（有第三方实测被要求绑卡，见正文）,False,2026-11-14,https://taofai.com/guide/resources/sambanova.html
+firsty,Firsty,esim,真正免费,看广告得流量：每条广告 20 MB，每天上限 360 MB，余额上限 240 MB，最高速率 1 Mbps,按广告累积，余额上限 240 MB,注册需支持国家的手机号，免绑卡,False,2026-11-14,https://taofai.com/guide/resources/firsty.html
+roamless,Roamless,esim,付费,按量付费，约 $1.95/GB 起（随国家浮动）,余额永不过期,官网/应用注册充值后使用,False,2026-11-14,https://taofai.com/guide/resources/roamless.html
+eskimo,Eskimo,esim,真正免费,注册填码得 500 MB 全球流量（全球包覆盖 111 个国家和地区）,流量不过期,注册时在推荐码栏填邀请码，免绑卡；领取和安装需要支持 eSIM 的设备,False,2026-11-15,https://taofai.com/guide/resources/eskimo.html
+instabox,InstaBox,vps,真正免费,4 vCPU / 8 GiB 内存 / 20 GiB 持久盘，免费档限 1 台机器,免费档长期 $0（官方定价页口径）；单次运行上限 120 分钟，随使用增长最高到 480 分钟,仅支持 Google 或 GitHub 登录，不绑卡（小众软件实测口径，与官方 Free 档 $0 一致）,False,2026-11-15,https://taofai.com/guide/resources/instabox.html
+vultr,Vultr,vps,真正免费,免费实例 1 台：1 vCPU / 512MB 内存 / 10GB SSD / 1 个 IPv4,Early Access 阶段长期开放申请，官方未给结束日期；通过后实例长期免费,注册后提交申请，随机抽选、数量有限，不保证通过；按官方发布口径，账号需绑信用卡并开启 2FA,False,2026-11-15,https://taofai.com/guide/resources/vultr.html
+huaweicloud,华为云免费体验中心,vps,免费试用,Flexus L 2 核 2G 免费 1 个月；ECS S7 2 核 4G 免费 1 个月（云服务器类四选一）,云服务器类免费 1 个月；另有长期免费产品,华为云账号实名认证；未购买、未试用过对应产品的新用户（V0 用户）；每人每产品限领 1 次,False,2026-11-15,https://taofai.com/guide/resources/huaweicloud.html
+jdcloud,京东云免费试用,vps,免费试用,个人 2 核 2G / 3M / 40G SSD 免费 1 个月；企业 2 核 4G / 5M / 50G 免费 1 个月,云主机免费 1 个月,京东云账号实名认证；未购买过对应产品的新用户,False,2026-11-15,https://taofai.com/guide/resources/jdcloud.html
+tianyiyun,天翼云免费试用,vps,免费试用,初始试用额度个人 1000 元 / 企业 2000 元体验金,试用时长以各产品页面为准,天翼云账号实名认证；未订购过对应产品的新用户；每款产品限申请 1 次,False,2026-11-15,https://taofai.com/guide/resources/tianyiyun.html
+ecloud,移动云（中国移动云）,vps,免费试用,MoMA 新用户 2500 万 Token（领后 30 天）；云主机 2 核 4G 免费试用 1 个月,Token 领后 30 天；云主机试用 1 个月,移动云账号实名认证；新用户，每人限领 1 次,False,2026-11-15,https://taofai.com/guide/resources/ecloud.html
+baidu-cloud,百度智能云免费试用体验馆,vps,免费试用,多款产品新用户 0 元试用（规格与时长以产品卡片为准）,试用时长以各产品卡片为准,百度账号注册并完成个人或企业实名认证；未试用或购买过对应产品,False,2026-11-15,https://taofai.com/guide/resources/baidu-cloud.html
+ucloud,UCloud 优刻得额度计划,vps,免费试用,开发者 $10 试用额度；创业计划最高 $100；绑卡奖励 $5,以额度发放时官方说明为准,在 UCloud Global 申请 Cloud Credit 计划并通过审核；下单前需绑信用卡,True,2026-11-15,https://taofai.com/guide/resources/ucloud.html
+ibm-cloud,IBM Cloud 免费档,vps,真正免费,40+ 款 Lite 产品永久免费；$200 额度 30 天,Lite 永久；$200 额度 30 天,注册需绑信用卡验证身份，建号即为按量付费账户，之后可用 Lite 免费档；$200 额度随新按量付费账户发放,True,2026-11-15,https://taofai.com/guide/resources/ibm-cloud.html
+alibabacloud,阿里云国际站免费试用,vps,免费试用,ECS 约 $90 试用额度（3 个月）；80+ 款产品可分别试用,ECS 额度 3 个月；各产品以试用页为准,国际站新账户；需绑信用卡验证（不支持 PayPal 领试用）,True,2026-11-15,https://taofai.com/guide/resources/alibabacloud.html
+linode,Akamai Cloud（原 Linode）,vps,免费试用,$100 新人额度（激活后 60 天）,60 天,新客户；需绑有效支付方式（试用期不扣费）；GPU 方案不参与,True,2026-11-15,https://taofai.com/guide/resources/linode.html
+kamatera,Kamatera 免费试用,vps,免费试用,最高 $100 云服务：1 台服务器 + 1TB 块存储 + 1TB 流量（30 天）,30 天,新用户；需绑有效信用卡（试用额度内不扣费）,True,2026-11-15,https://taofai.com/guide/resources/kamatera.html
+upcloud,UpCloud 免费试用,vps,免费试用,标准试用 7 天（上限 2 核 4G / 180GB）；活动期 30 天 + $500 额度,标准试用 7 天；活动口径以官网为准,新账户；绑卡做 0/1 元临时预授权验证（立即退回）；试用上限 2 核 4G、存储合计 180GB，不含 Windows,True,2026-11-15,https://taofai.com/guide/resources/upcloud.html
+render,Render 免费档,vps,真正免费,免费 Web 服务 512MB / 0.1 CPU；每月 750 实例小时；PostgreSQL 1GB,长期（免费实例小时按月发放）,注册即可，不绑卡,False,2026-11-15,https://taofai.com/guide/resources/render.html
+railway,Railway 免费试用,vps,免费试用,$5 一次性试用额度（最长 30 天）；免费档每月 $1,试用最长 30 天；免费档每月 $1,注册即可，不绑卡,False,2026-11-15,https://taofai.com/guide/resources/railway.html
+flyio,Fly.io 试用额度,vps,免费试用,新组织 $1 试用额度（7 天）,7 天,注册新组织自动发放；试用结束继续使用需绑卡,False,2026-11-15,https://taofai.com/guide/resources/flyio.html

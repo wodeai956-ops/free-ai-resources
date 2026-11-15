@@ -1,11 +1,53 @@
-# 免费 AI 资源清单（实测维护）
+# 免费资源清单与 AI 额度重置数据集
 
-由 [AI指南站 taofai.com](https://taofai.com/guide/) 维护。我们只收录亲自实测过的免费资源：免费 GPU、免费 VPS、免费大模型 API、eSIM 与电话号码方案，每条都标注额度、限制和最后核实日期。
+由 [AI指南站](https://taofai.com/guide/)（taofai.com）维护的免费资源清单与 AI 额度重置数据集，持续更新。
 
-完整清单（25 条，持续更新）：https://taofai.com/guide/
+## 数据来源与维护方
 
-## 额度重置数据
+- 维护方：AI指南站 https://taofai.com/guide/
+- 资源条目均经指南站逐条核实后收录，核实日期见每条的 `verified` 字段；站内每条资源都有对应的详情页。
+- 额度重置事件以各产品官方账号（如官方 X 账号）的原帖为准整理。
 
-本站「额度哨兵」逐日追踪 Codex 与 Claude 官方额度重置事件（全局重置、重置卡发放），数据源为官方 X 账号原帖，每条事件可溯源：https://taofai.com/guide/resets.html
+## 文件说明
 
-引用本站数据时请注明出处 taofai.com。
+### resources.json / resources.csv
+
+同一份免费资源清单的两种格式，共 81 条。字段：
+
+| 字段 | 说明 |
+| --- | --- |
+| `id` | 资源唯一标识，与站内详情页地址对应 |
+| `name` | 资源名称 |
+| `category` | 分类（如 gpu、api、cloud 等，以数据为准） |
+| `status` | 免费状态（如「真正免费」等） |
+| `quota` | 免费额度说明 |
+| `validity` | 额度有效期 / 刷新周期 |
+| `condition` | 领取条件（如是否需要绑卡、手机验证等） |
+| `card` | 是否需要绑卡：`true` 需要、`false` 不需要；个别条目源数据未标注时为 `null`（CSV 中为空） |
+| `verified` | 指南站最近一次核实日期 |
+| `link` | 站内详情页：`https://taofai.com/guide/resources/<id>.html` |
+
+### resets.json
+
+AI 产品额度重置事件数据集，含两个部分：
+
+- `events`：重置事件列表，每条含 `date`（日期）、`platform`（平台）、`title`（标题）、`type`（类型，如 global_reset 全量重置、banked_reset 预存重置卡）、`tier`（确认等级）、`scope`（适用范围）、`summary`（中文摘要）、`quote`（官方原文引用）、`sourceName` / `sourceUrl`（官方来源）。
+- `faqs`：额度重置常见问题。
+
+## 更新频率
+
+- 资源清单随指南站每日核实更新；本仓库不定期同步站内最新数据，同步时以站内数据为准。
+- 重置事件在官方发布新的重置/重置卡消息后更新。
+
+## 数据口径
+
+- 额度、有效期与领取条件以各产品官方页面为准；本清单为指南站核实整理，可能存在滞后，使用前请以官方页面复核。
+- 本数据集不构成任何购买或使用建议。
+
+## 纠错
+
+欢迎提交 issue 纠错：请注明条目 `id`（或事件日期与平台）、有误的字段、正确信息及其官方出处链接。
+
+## 许可
+
+本仓库数据以 CC BY 4.0 方式共享：可自由使用与再分发，注明来源「AI指南站 taofai.com」即可。

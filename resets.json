@@ -1,0 +1,86 @@
+{
+  "events": [
+    {
+      "date": "2026-11-13",
+      "platform": "codex",
+      "quote": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon!",
+      "scope": "全部付费用户",
+      "sourceName": "Codex 官方 X 账号 @thsottiaux",
+      "sourceUrl": "https://x.com/thsottiaux/status/2120999993079451919",
+      "summary": "Tibo 11 月 11 日预告后，北京时间 11 月 13 日凌晨宣布预存重置（重置卡）已激活发放，陆续进入所有付费用户账户；需在 Codex 设置 → 用量里手动兑换，官方规则 30 天内有效。",
+      "tier": "已确认",
+      "title": "Codex 发放重置卡",
+      "type": "banked_reset"
+    },
+    {
+      "date": "2026-11-10",
+      "platform": "claude",
+      "quote": "We've given all Pro, Max, Ultra, and Team users one free full reset, across all models and limits. Use it anytime before December 10 at 2:00PM PT.",
+      "scope": "Pro / Max / Ultra / Team",
+      "sourceName": "Claude 官方 X 账号 @ClaudeDevs",
+      "sourceUrl": "https://x.com/ClaudeDevs/status/2120275296637321476",
+      "summary": "Anthropic 官方给全部付费用户发一次免费全量重置，五小时与每周额度一次回满，北京时间 12 月 11 日上午 6 点前在「设置 → 用量」里可用。",
+      "tier": "已确认",
+      "title": "Claude 官方赠送全量重置",
+      "type": "global_reset"
+    },
+    {
+      "date": "2026-11-09",
+      "platform": "claude",
+      "quote": "We're giving Ultra and Team Premium users Fable resets based on how long you've subscribed: <6 mo: 1 6–12 mo: 2 >12 mo: 3 Use them anytime by March 8. Pro and Team Standard get a week to try Fable 5.2, up to half your weekly limit, plus one reset.",
+      "scope": "付费用户",
+      "sourceName": "Claude 官方 X 账号 @ClaudeDevs",
+      "sourceUrl": "https://x.com/ClaudeDevs/status/2119868704544711108",
+      "summary": "官方往付费用户账户存入一次重置（重置卡），需手动使用，不会自动清零额度。",
+      "tier": "已确认",
+      "title": "Claude 发放重置卡",
+      "type": "banked_reset"
+    },
+    {
+      "date": "2026-11-02",
+      "platform": "codex",
+      "quote": "Day 28/ Banked 2/2",
+      "scope": "所有付费用户",
+      "sourceName": "Codex 官方 X 账号 @thsottiaux",
+      "sourceUrl": "https://x.com/thsottiaux/status/2117035794678546764",
+      "summary": "为期 28 天的 Codex 活动结束，期间共 11 次全局重置、3 次储备重置；本条为最后一次存储重置发放。",
+      "tier": "已确认",
+      "title": "28 天活动收官：存储重置 2/2",
+      "type": "banked_reset"
+    },
+    {
+      "date": "2026-10-28",
+      "platform": "codex",
+      "quote": "Day 23/ Much requested iCloud Main & Calendar plugins. Just kidding, today is a reset. Still much requested though!",
+      "scope": "全部用户",
+      "sourceName": "Codex 官方 X 账号 @thsottiaux",
+      "sourceUrl": "https://x.com/thsottiaux/status/2115273064481218829",
+      "summary": "官方全局重置，符合条件的账号额度一次回满（02:42 UTC）。",
+      "tier": "已确认",
+      "title": "Codex 全局额度重置",
+      "type": "global_reset"
+    }
+  ],
+  "faqs": [
+    {
+      "a": "先看本页时间线里最近的一条 Codex 记录：全局重置没有固定节奏，官方从未公布日程，网上流传的“每周几重置”都是猜测。你自己账号的额度和下次重置时间，以 chatgpt.com/codex/settings/usage 或 Codex CLI 里输入 /status 显示的为准。",
+      "q": "Codex 今天重置了吗？"
+    },
+    {
+      "a": "全局重置是官方统一给符合条件的账号把额度一次回满，什么都不用做。重置卡（banked reset）是官方把一次重置存进你的账号，不会自动生效，要自己去用量页手动兑换；不兑换就一直存着，过期作废。",
+      "q": "重置卡是什么，和全局重置有什么区别？"
+    },
+    {
+      "a": "按 Codex 官方规则，重置卡自发放起 30 天内有效。在 Codex 设置 → 用量里手动兑换；兑换门槛是被覆盖的额度里至少有一项剩余低于 80%，额度还很满时兑不了；兑换后每周重置日会随之改变。",
+      "q": "重置卡多久过期、怎么兑换？"
+    },
+    {
+      "a": "在 Claude 的「设置 → 用量」里使用，官方发放后会在那里出现。例如 2026-11-10 发放的那次全量重置，Pro、Max、Ultra、Team 都能领，北京时间 12 月 11 日上午 6 点前可用。官方没有固定发放节奏，以后还有没有、什么时候有，看官方公告。",
+      "q": "Claude 的全量重置在哪里领？"
+    },
+    {
+      "a": "Codex 在 chatgpt.com/codex/settings/usage，或在 Codex CLI 里输入 /status；Claude 在「设置 → 用量」。订阅额度按每个账号自己的时钟走（5 小时窗 + 每周额度），别人账号的重置时间对你没有参考意义。",
+      "q": "在哪里看我自己的重置时间？"
+    }
+  ]
+}
